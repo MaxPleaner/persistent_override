@@ -1,0 +1,4 @@
+firebase-debug.log
+src/start_firebase.coffee
+dist/*
+tmp/*
