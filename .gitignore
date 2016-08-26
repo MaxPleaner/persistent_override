@@ -1,17 +1,19 @@
-# doesnt need to be in source control
-firebase-debug.log
-
 # edit with firebase credentials
-src/credentials.coffee
 
-# doesnt need to be in source control
-dist/*
-
-# doesn't need to be in source control
-tmp/*
+    src/credentials.coffee
 
 # edit with your uid
-database.rules.json
 
+    database.rules.json
 
-node_modules/*
+# Contains senstive data after compilation
+
+    chrome_extension/persistent_override.pkgd.js
+    
+# doesn't need to be in source control
+
+    node_modules/*
+    dist/*
+    tmp/*
+    firebase-debug.log
+    
