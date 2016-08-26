@@ -1,0 +1,29 @@
+{
+  "name": "persistent_override",
+  "version": "1.0.0",
+  "description": "self-hosted userscripts using firebase",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maxpleaner/persistent_override.git"
+  },
+  "keywords": [
+    "userscripts",
+    "client-side",
+    "browser",
+    "firebase"
+  ],
+  "author": "maxpleaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxpleaner/persistent_override/issues"
+  },
+  "homepage": "https://github.com/maxpleaner/persistent_override#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "coffee-stir": "0.0.31",
+    "firebase-tools": "^3.0.7"
+  }
+}
