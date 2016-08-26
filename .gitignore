@@ -2,7 +2,7 @@
 firebase-debug.log
 
 # edit with firebase credentials
-src/start_firebase.coffee
+src/credentials.coffee
 
 # doesnt need to be in source control
 dist/*
