@@ -1,4 +1,17 @@
+# doesnt need to be in source control
 firebase-debug.log
+
+# edit with firebase credentials
 src/start_firebase.coffee
+
+# doesnt need to be in source control
 dist/*
+
+# doesn't need to be in source control
 tmp/*
+
+# edit with your uid
+database.rules.json
+
+
+node_modules/*
