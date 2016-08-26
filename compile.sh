@@ -20,7 +20,10 @@
     cat src/toSource.min.js >> $Dest
     
     # Firebase
-    cat src/firebase.js >> $Dest
+    cat src/firebase.min.js >> $Dest
+    
+    # Firebase crednentials
+    cat tmp//credentials.js >> $Dest
     
     # Firebase Helpers
     cat tmp/start_firebase.js >> $Dest
