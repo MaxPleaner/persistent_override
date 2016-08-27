@@ -1,0 +1,28 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /home/max/Downloads/projects/persistent_override/node_modules/.bin/firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     linux
+[debug] Node Version: v6.4.0
+[debug] Time:         Wed Aug 24 2016 17:22:47 GMT-0700 (PDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/max/Downloads/projects/persistent_override
+[info] Public Directory: dist
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/bin/nodejs /home/max/Downloads/projects/persistent_override/node_modules/.bin/firebase serve
+[debug] CLI Version:  3.0.7
+[debug] Platform:     linux
+[debug] Node Version: v6.4.0
+[debug] Time:         Thu Aug 25 2016 12:12:34 GMT-0700 (PDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /home/max/Downloads/projects/persistent_override
+[info] Public Directory: dist
+[info] 
+[info] Server listening at: http://localhost:5000

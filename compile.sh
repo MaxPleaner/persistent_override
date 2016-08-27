@@ -36,3 +36,7 @@
     rm dist/index.html
     cp test/index.html dist/index.html
 
+# Chrome extension
+
+    rm chrome_extension/persistent_override.pkgd.js
+    cp $Dest chrome_extension/
