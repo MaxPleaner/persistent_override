@@ -40,3 +40,9 @@
 
     rm chrome_extension/persistent_override.pkgd.js
     cp $Dest chrome_extension/
+    
+    CeDest=chrome_extension/content_script.pkgd.js
+    rm $CeDest
+    touch $CeDest
+    cat chrome_extension/persistent_override.pkgd.js >> $CeDest
+    cat chrome_extension/content_script.js >> $CeDest

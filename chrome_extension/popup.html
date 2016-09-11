@@ -2,10 +2,26 @@
 <html>
   <head>
     <title>Persistent Override</title>
-    <script src="persistent_override.pkgd.js"></script>
+    <script src="jquery.min.js"></script>
     <script src="popup.js"></script>
+    <link rel='stylesheet' href='./style.css'>
   </head>
   <body>
-    <h4>Persistent Override</h4>
+    <h1 id="title">Persistent Override</h1>
+    <a id="current-site-btn" href="#">current site</a>
+    <a id="all-sites-btn" href="#">all sites</a>
+    <a id="section-title" href="#"></a>
+    <ul id="scripts-list"></ul>
+    <a id="show-new-script-form" href="#">Show new script form</a>
+    <form action="#" id="new-script" class="hidden">
+      <label>For the current site only?</label>
+      <input id="for-current-site-checkbox" type="checkbox" checked isChecked='true' name="is_for_current_site">
+      <br>
+      <input id="regex-input" class="hidden" type="text" name="regex" placeholder="site matcher regex (optional)">
+      <br>
+      <textarea id="script-content" name="script-content" placeholder="script content"></textarea>
+      <br>
+      <input type="submit" value="create script">
+    </form>
   </body>
 </html>

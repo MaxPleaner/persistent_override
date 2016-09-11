@@ -1,0 +1,61 @@
+body {
+  width: 500px;
+  height: 500px;
+}
+
+/* title of the extension*/
+#title {
+  font-size: 12px;
+}
+
+/* link to see current site */
+#current-site-btn {
+  
+}
+
+/* link to see all sites */
+#all-sites-btn {
+  
+}
+
+/* shows whether all sites or current site is selected */
+#section-title {
+  
+}
+
+/* list of scripts for the selected section */
+#scripts-list {
+  
+}
+
+/* form for creating a new script */
+#new-script {
+  
+}
+
+/* checkbox to specify if new script is for current site only */
+#for-current-site-checkbox {
+  
+}
+
+/* input to enter regex for a new script */
+/* Not visible if #for-current-site-checkbox is checked */
+#regex-input {
+  min-width: 200px;
+  border: 1px solid black;
+}
+
+/* textarea to enter contet for a new script */
+#script-content {
+  color: inherit;
+}
+
+/* button to toggle visibility of #new-script */
+#show-new-script-form {
+  
+}
+
+/* generic class to hide an element */
+.hidden {
+  display: none;
+}
